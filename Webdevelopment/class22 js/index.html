@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Idk</title>
+    </head>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <body>
+        <!--------------------------------------javascript---------------->
+        <script>
+            //--------------------------------Two ways to do coding of javscript--------------------
+            //1. Internal Javascript : In this we do coding in script tag. that script tag we write in body tag or tag 
+            //2. Extermal Javscript : Here we write code in seperate Javascript file. We create a file with name : name.js and do coding in that. Also we need to conncet the JS file
+            //with html for that we use script tag only we write : <script src="name.js"> this line will be written in html in either head tag or body tag.
+            
+                //--------------------------------Rules----------------------------
+                //1. // are used to comment in Javscript
+                //2. Here tehre is no problem of spacing 
+                //3. Javscript is case sensitive means where we need to give small letter it has to be small and where we need to give capital letter it has to capital.--------------------------------------javascript----------------
+                //4. ; is given at the end of line  liek we write period in english.
+        
+                //1. Internal Javascript -
+                //Some basic Functions : Functions means to do some work. like we have tags in html in same way we ahve functions which do different things 
+                //eg : random(), alert()(notification) etc..-. Function have one word written and ()with that.
+  //Basic Function which are used alot:
+                //1. document.write() : it is used to print message on screen like p tag. message is given in (). message in javscript has to be always written in ""
+                document.write("This is nice" + "<br>");
+                document.write("My name is Inci" + "<br>");
+
+                //+ sign is used to join teh two text together
+
+            //2. document.getElementById().innerHTML : This helps to connect HTML with Javscript. so in () we mention the id of the tag  which we want to connect wkith javscript
+            // and after innertHTML we put equal and do some javascript coding  and that javscript coding is given to HTML
+
+            //so we connect the p tag with javscript. So here we do some calculation we add numbers and answer wwe want to display on screen
+            //so we give it to p tag and it displays
+            document.getElementById("p1").innerHTML=2+3 + "<br>";// 5 is given to p tag and it displays on screen. Whatver we write after = is given to p tag
+            //and p tag gets a message  from javacsript. it will display
+            document.getElementById("p2").innerHTML="hello" + "<br>";
+            // we can also use document.getElementByClassname(), document.getElemntByTagname()
+            document.getElementById("p3").innerHTML="Good morning" + "<br>";
+            //Note : in a function when we ahve two words together which make up to one word. second word first letter is always capital.
+
+
+            //Example : let multiple numbers. we can use + sign to join text and number together
+            document.write("The addition of two numbers is " + (2+10) + "<br>");
+
+            //Assignment. multiplcation of 3
+            document.write("3x1="+(3*1) + "<br>");
+            document.write("3x2="+(3*2) + "<br>");
+            document.write("3x3="+(3*3) + "<br>");
+            document.write("3x4="+(3*4) + "<br>");
+            document.write("3x5="+(3*5) + "<br>");
+            document.write("3x6="+(3*6)+ "<br>");
+            document.write("3x7="+(3*7) + "<br>");
+            document.write("3x8="+(3*8) + "<br>");
+            document.write("3x9="+(3*9) + "<br>");
+            document.write("3x10="+(3*10) + "<br>");
+            document.write("3x11="+(3*11) + "<br>");
+            document.write("3x12="+(3*12) + "<br>");
+            //window.alert is used to show a pop up message on screen//
+            window.alert("the answer is "+ (2+3)) //+ sign is joining the text and numbers together. Remember when we put + sign in between the
+            //text and number it is used to join. but hwne we put inbetween two numbers it is used to add
+        </script>
+    </body>
+</html>
