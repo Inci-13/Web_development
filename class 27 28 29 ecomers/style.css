@@ -1,0 +1,1036 @@
+.part{
+    background: radial-gradient(white, pink);
+    width:1522px;
+    height:737px;
+}
+.part1{
+    background: radial-gradient(white, pink);
+    width:1522px;
+    height:1600px;
+}
+/*if we want to give two or more colors we can use background: linear-gradien() or radial-gradient().
+Linear gradient : starts giving colors horizontally like first one colo comes and the next color comes
+Radial gradient : starts giving color from center. so one color comes in center and another comes around it.
+we can even give 3, 4 as amny as colors we want.
+*/
+.redstorelogo{
+    margin-left:30px;
+}
+.navbar li{
+   display:inline;
+   color:rgb(27, 26, 26);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size:30px;
+   font-style: italic;
+   font-weight:800;
+   margin-left:80px;
+}
+.navbar{
+    position:absolute;
+    top:20px;
+    left:500px;
+}
+.cart{
+    position:absolute;
+    top:20px;
+    left:1450px;
+    width:70px;
+}
+h1{
+    position:absolute;
+    top:300px;
+    left:170px;
+    font-size:50px;
+}
+label{
+    position:absolute;
+    top:490px;
+    left:168px;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:30px;
+}
+button{
+    position:absolute;
+    top:570px;
+    left:168px;
+    font-size:large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:30px;
+    height:50px;
+    width:200px;
+    background-color:rgb(255, 76, 21);
+    color:white;
+}
+.footballguys{
+    position:absolute;
+    top:110px;
+    left:800px;
+    height:600px;
+}
+.redshoesguy{
+    position:absolute;
+    top:800px;
+    left:250px;
+    height:350px;
+}
+.footguy{
+    position:absolute;
+    top:800px;
+    left:640px;
+    height:350px;
+}
+.adidasgirl{
+    position:absolute;
+    top:800px;
+    left:1030px;
+    height:350px;
+}
+.Featured{
+    position:absolute;
+    top:1250px;
+    left:640px;
+    font-size:30px;
+    font-weight:800;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+.redshirtguy{
+    position:absolute;
+    top:1390px;
+    left:250px;
+    height:250px;
+    visibility:visible;
+}
+.blackgreenshoes{
+    position:absolute;
+    top:1390px;
+    left:520px;
+    height:250px;
+    visibility:visible;
+}
+.crustytrousers{
+    position:absolute;
+    top:1390px;
+    left:790px;
+    height:250px;
+    visibility:visible;
+}
+.blackshirtguy{
+    position:absolute;
+    top:1390px;
+    left:1080px;
+    height:250px;
+    visibility:visible;
+}
+.price1{
+    position:absolute;
+    top:1690px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars1{
+    position:absolute;
+    top:1670px;
+    left:250px;
+    height:20px;
+}
+.nameofclothes1{
+    position:absolute;
+    top:1645px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price2{
+    position:absolute;
+    top:1690px;
+    left:520px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars2{
+    position:absolute;
+    top:1670px;
+    left:520px;
+    height:20px;
+}
+.nameofclothes2{
+    position:absolute;
+    top:1645px;
+    left:520px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price3{
+    position:absolute;
+    top:1690px;
+    left:790px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars3{
+    position:absolute;
+    top:1670px;
+    left:790px;
+    height:20px;
+}
+.nameofclothes3{
+    position:absolute;
+    top:1645px;
+    left:790px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price4{
+    position:absolute;
+    top:1690px;
+    left:1080px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars4{
+    position:absolute;
+    top:1670px;
+    left:1080px;
+    height:20px;
+}
+.nameofclothes4{
+    position:absolute;
+    top:1645px;
+    left:1080px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LatestProducts{
+    position:absolute;
+    top:1820px;
+    left:640px;
+    font-size:30px;
+    font-weight:800;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+.whiteshoes{
+    position:absolute;
+    top:1980px;
+    left:250px;
+    height:300px;
+    visibility:visible;
+}
+.price5{
+    position:absolute;
+    top:2330px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarss{
+    position:absolute;
+    top:2310px;
+    left:250px;
+    height:20px;
+}
+.nameofclothess{
+    position:absolute;
+    top:2285px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blackshirt{
+    position:absolute;
+    top:1980px;
+    left:500px;
+    height:300px;
+    visibility:visible;
+}
+.price6{
+    position:absolute;
+    top:2330px;
+    left:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsss{
+    position:absolute;
+    top:2310px;
+    left:500px;
+    height:20px;
+}
+.nameofclothesss{
+    position:absolute;
+    top:2285px;
+    left:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socks{
+    position:absolute;
+    top:1980px;
+    left:750px;
+    height:300px;
+    visibility:visible;
+}
+.price7{
+    position:absolute;
+    top:2330px;
+    left:750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssss{
+    position:absolute;
+    top:2310px;
+    left:750px;
+    height:20px;
+}
+.nameofclothessss{
+    position:absolute;
+    top:2285px;
+    left:750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blackwatch{
+    position:absolute;
+    top:1980px;
+    left:1000px;
+    height:300px;
+    visibility:visible;
+}
+.price8{
+    position:absolute;
+    top:2330px;
+    left:1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsssss{
+    position:absolute;
+    top:2310px;
+    left:1000px;
+    height:20px;
+}
+.nameofclothesssss{
+    position:absolute;
+    top:2285px;
+    left:1000px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.otherwatch{
+    position:absolute;
+    top:2450px;
+    left:250px;
+    height:300px;
+    visibility:visible;
+}
+.price9{
+    position:absolute;
+    top:2800px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssssss{
+    position:absolute;
+    top:2780px;
+    left:250px;
+    height:20px;
+}
+.nameofclothessssss{
+    position:absolute;
+    top:2755px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.blackredshoes{
+    position:absolute;
+    top:2450px;
+    left:500px;
+    height:300px;
+    visibility:visible;
+}
+.price10{
+    position:absolute;
+    top:2800px;
+    left:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsssssss{
+    position:absolute;
+    top:2780px;
+    left:500px;
+    height:20px;
+}
+.nameofclothesssssss{
+    position:absolute;
+    top:2755px;
+    left:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boringgreyshoes{
+    position:absolute;
+    top:2450px;
+    left:750px;
+    height:300px;
+    visibility:visible;
+}
+.price11{
+    position:absolute;
+    top:2800px;
+    left:750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssssssss{
+    position:absolute;
+    top:2780px;
+    left:750px;
+    height:20px;
+}
+.nameofclothessssssss{
+    position:absolute;
+    top:2755px;
+    left:750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.weirdtrousers{
+    position:absolute;
+    top:2450px;
+    left:1000px;
+    height:300px;
+    visibility:visible;
+}
+.price12{
+    position:absolute;
+    top:2800px;
+    left:1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsssssssss{
+    position:absolute;
+    top:2780px;
+    left:1000px;
+    height:20px;
+}
+.nameofclothesssssssss{
+    position:absolute;
+    top:2755px;
+    left:1000px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.otherbit{
+    width:1490px;
+    height:500px;
+    background: radial-gradient(white, pink);
+    position:absolute;
+    top:2970px;
+}
+.watch{
+    width:500px;
+    position:absolute;
+    top:50px;
+    left:200px;
+}
+.exclusive{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:70px;
+    left:700px;
+}
+.SmartBand4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:150px;
+    left:700px;
+    font-size:80px;
+    font-weight:700;
+}
+.paragraphtoolongtowrite{
+    position:absolute;
+    top:250px;
+    left:700px;
+    font-size:large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buynow{
+    position:absolute;
+    top:370px;
+    left:700px;
+    border-radius:30px;
+    height:50px;
+    width:200px;
+    background-color:rgb(255, 76, 21);
+    color:white;
+}
+.review1{
+    width:380px;
+    height:500px;
+    border:1px solid grey;
+    position:absolute;
+    top:3600px;
+    left:100px;
+}
+.qotes{
+    font-size:150px;
+    color:rgb(255, 76, 21);
+    top:80px;
+}
+.loremipsum{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:120px;
+    left:20px;
+}
+.morestars{
+    height:30px;
+    position:absolute;
+    top:360px;
+    left:90px;
+}
+.girl{
+    border-radius:100px;
+    height:60px;
+    position:absolute;
+    top:400px;
+    left:130px;
+}
+.girlname{
+    position:absolute;
+    top:470px;
+    left:110px;
+}
+.review2{
+    width:380px;
+    height:500px;
+    border:1px solid grey;
+    position:absolute;
+    top:3600px;
+    left:500px;
+}
+.qotes2{
+    font-size:150px;
+    color:rgb(255, 76, 21);
+    top:80px;
+}
+.loremipsumm{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:120px;
+    left:20px;
+}
+.morestars2{
+    height:30px;
+    position:absolute;
+    top:360px;
+    left:90px;
+}
+.boy{
+    border-radius:100px;
+    height:60px;
+    position:absolute;
+    top:400px;
+    left:130px;
+}
+.boyname{
+    position:absolute;
+    top:470px;
+    left:110px;
+}
+.review3{
+    width:380px;
+    height:500px;
+    position:absolute;
+    top:3600px;
+    left:1000px;
+    border:1px solid;
+}
+.qotes3{
+    font-size:150px;
+    color:rgb(255, 76, 21);
+    top:80px;
+}
+.loremipsummm{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:120px;
+    left:20px;
+}
+.morestars3{
+    height:30px;
+    position:absolute;
+    top:360px;
+    left:90px;
+}
+.anothergirl{
+    border-radius:100px;
+    height:60px;
+    position:absolute;
+    top:400px;
+    left:130px;
+}
+.anothergirlname{
+    position:absolute;
+    top:470px;
+    left:110px;
+}
+.review4{
+    width:380px;
+    height:500px;
+    position:absolute;
+    top:3600px;
+    left:550px;
+    border:1px solid;
+}
+.qotes4{
+    font-size:150px;
+    color:rgb(255, 76, 21);
+    top:80px;
+}
+.loremipsummmm{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:120px;
+    left:20px;
+}
+.morestars4{
+    height:30px;
+    position:absolute;
+    top:360px;
+    left:90px;
+}
+.anotherperson{
+    border-radius:100px;
+    height:60px;
+    position:absolute;
+    top:400px;
+    left:130px;
+}
+.anotherpersonname{
+    position:absolute;
+    top:470px;
+    left:110px;
+}
+.logo-godrej{
+    position:absolute;
+    top:4200px;
+    left:110px;
+}
+.logo-oppo{
+    position:absolute;
+    top:4200px;
+    left:400px;
+}
+.logo-coca-cola{
+    position:absolute;
+    top:4200px;
+    left:630px;
+}
+.logo-paypal{
+    position:absolute;
+    top:4200px;
+    left:900px;
+}
+.logo-philips{
+    position:absolute;
+    top:4200px;
+    left:1160px;
+}
+.redshirtguyy{
+    position:absolute;
+    top:1000px;
+    left:250px;
+    height:250px;
+    visibility:visible;
+}
+.blackgreenshoess{
+    position:absolute;
+    top:1390px;
+    left:520px;
+    height:250px;
+    visibility:visible;
+}
+.crustytrouserss{
+    position:absolute;
+    top:1390px;
+    left:790px;
+    height:250px;
+    visibility:visible;
+}
+.blackshirtguyy{
+    position:absolute;
+    top:1390px;
+    left:1080px;
+    height:50px;
+    visibility:visible;
+}
+.price11{
+    position:absolute;
+    top:1690px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars11{
+    position:absolute;
+    top:1670px;
+    left:250px;
+    height:20px;
+}
+.nameofclothes11{
+    position:absolute;
+    top:1645px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price22{
+    position:absolute;
+    top:1690px;
+    left:520px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars22{
+    position:absolute;
+    top:1670px;
+    left:520px;
+    height:20px;
+}
+.nameofclothes22{
+    position:absolute;
+    top:1645px;
+    left:520px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price33{
+    position:absolute;
+    top:1690px;
+    left:790px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars33{
+    position:absolute;
+    top:1670px;
+    left:790px;
+    height:20px;
+}
+.nameofclothes33{
+    position:absolute;
+    top:1645px;
+    left:790px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price44{
+    position:absolute;
+    top:1690px;
+    left:1080px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstars44{
+    position:absolute;
+    top:1670px;
+    left:1080px;
+    height:20px;
+}
+.nameofclothes44{
+    position:absolute;
+    top:1645px;
+    left:1080px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whiteshoess{
+    position:absolute;
+    top:1980px;
+    left:250px;
+    height:300px;
+    visibility:visible;
+}
+.price55{
+    position:absolute;
+    top:2330px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarss1{
+    position:absolute;
+    top:2310px;
+    left:250px;
+    height:20px;
+}
+.nameofclothess1{
+    position:absolute;
+    top:2285px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blackshirtt{
+    position:absolute;
+    top:1980px;
+    left:500px;
+    height:300px;
+    visibility:visible;
+}
+.price66{
+    position:absolute;
+    top:2330px;
+    left:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsss1{
+    position:absolute;
+    top:2310px;
+    left:500px;
+    height:20px;
+}
+.nameofclothesss1{
+    position:absolute;
+    top:2285px;
+    left:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sockss{
+    position:absolute;
+    top:1980px;
+    left:750px;
+    height:300px;
+    visibility:visible;
+}
+.price77{
+    position:absolute;
+    top:2330px;
+    left:750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssss1{
+    position:absolute;
+    top:2310px;
+    left:750px;
+    height:20px;
+}
+.nameofclothessss1{
+    position:absolute;
+    top:2285px;
+    left:750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blackwatchh{
+    position:absolute;
+    top:1980px;
+    left:1000px;
+    height:300px;
+    visibility:visible;
+}
+.price88{
+    position:absolute;
+    top:2330px;
+    left:1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsssss2{
+    position:absolute;
+    top:2310px;
+    left:1000px;
+    height:20px;
+}
+.nameofclothesssss2{
+    position:absolute;
+    top:2285px;
+    left:1000px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.otherwatchh{
+    position:absolute;
+    top:2450px;
+    left:250px;
+    height:300px;
+    visibility:visible;
+}
+.price98{
+    position:absolute;
+    top:2800px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssssss8{
+    position:absolute;
+    top:2780px;
+    left:250px;
+    height:20px;
+}
+.nameofclothessssss8{
+    position:absolute;
+    top:2755px;
+    left:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.blackredshoes8{
+    position:absolute;
+    top:2450px;
+    left:500px;
+    height:300px;
+    visibility:visible;
+}
+.price108{
+    position:absolute;
+    top:2800px;
+    left:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarsssssss8{
+    position:absolute;
+    top:2780px;
+    left:500px;
+    height:20px;
+}
+.nameofclothesssssss8{
+    position:absolute;
+    top:2755px;
+    left:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boringgreyshoes8{
+    position:absolute;
+    top:2450px;
+    left:750px;
+    height:300px;
+    visibility:visible;
+}
+.price118{
+    position:absolute;
+    top:2800px;
+    left:750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ratingstarssssssss8{
+    position:absolute;
+    top:2780px;
+    left:750px;
+    height:20px;
+}
+.nameofclothessssssss8{
+    position:absolute;
+    top:2755px;
+    left:750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.weirdtrousers8{
+    position:absolute;
+    top:2450px;
+    left:1000px;
+    height:300px;
+    visibility:visible;
+}
+.price128{
+    position:absolute;
+    top:2800px;
+    left:1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1, .img2, .img3, .img4{
+    display:inline-block;
+    margin-top:140px;
+   
+}
+.img1{
+margin-left: 300px;
+}
+.img2, .img3, .img4{
+margin-left: 30px;
+}
+
+.img5, .img6, .img7, .img8{
+    display:inline-block;
+    margin-top:140px;
+   
+}
+.img5{
+margin-left: 300px;
+}
+.img6, .img7, .img8{
+margin-left: 30px;
+}
+.img9, .img10, .img11, .img12{
+    display:inline-block;
+    margin-top:140px;
+   
+}
+.img9{
+margin-left: 300px;
+}
+.img10, .img11, .img12{
+margin-left: 30px;
+}
+.c{
+    margin-top:-60px;
+}
+.whitebox{
+    background-color:white;
+    position:absolute;
+    width:350px;
+    height:260px;
+    top:300px;
+    left:100px;
+}
+.Register{
+    position:absolute;
+    top:10px;
+    left:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight:800px;
+    color:red;
+}
+.AccA{
+    position:absolute;
+    top:50px;
+    left:40px;
+    font-size: 20px;
+    color:red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    font-weight:100px;
+}
+.username{
+    position:absolute;
+    top:80px;
+    left:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:white;
+    border:none;
+    border-bottom:3px solid orange;
+    color:black;
+    width:260px;
+}
+.email{
+    position:absolute;
+    top:120px;
+    left:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:white;
+    border:none;
+    border-bottom:3px solid orange;
+    color:black;
+    width:260px;
+}
+.Password{
+    position:absolute;
+    top:160px;
+    left:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:white;
+    border:none;
+    border-bottom:3px solid orange;
+    color:black;
+    width:260px;
+}
+.Submit{
+    position: absolute;
+    top:200px;
+    left:40px;
+    background-color: rgb(173, 0, 0);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    border-radius:20px;
+    width:260px;
+}
+.ptag{
+    position:absolute;
+    top:200px;
+    left:60px;
+    font-size: 20px;
+    line-height:40px;
+    width:1400px;
+    height:600px;
+}
+.Phone{
+    position:absolute;
+    top:200px;
+    left:800px;
+    width:400px;
+}

@@ -1,0 +1,438 @@
+.list2 li{
+    display:inline;
+    float:left;
+    margin-left:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div1,.div2{
+    display:inline-block;
+}
+.div2{
+    position:absolute;
+    top:20px;
+    left:700px;
+}
+.paragraph1{
+    position:absolute;
+    top:430px;
+    left:700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-style: italic;
+    font-size:18px;
+    line-height:28px;
+}
+.professionals{
+    height:530px;
+    width:1500px;
+    position:absolute;
+    top:100px;
+}
+.baby{
+    height:530px;
+    width:1500px;
+    position:absolute;
+    top:100px;
+}
+.label{
+    position:absolute;
+    top:630px;
+    left:70px;
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:800;
+    font-style:italic;
+    color:green;
+}
+.img2{
+    width:1400px;
+    height:800px;
+}
+.img3{
+    position:absolute;
+    top:670px;
+    left:50px;
+}
+.boxlabel1{
+    position:absolute;
+    top:690px;
+    left:80px;
+    font-size:25px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loremipsum1{
+    position:absolute;
+    top:710px;
+    left:80px;
+    line-height:25px;
+    color:rgb(103, 103, 103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img4{
+    position:absolute;
+    top:890px;
+    left:50px;
+}
+.boxlabel2{
+    position:absolute;
+    top:910px;
+    left:80px;
+    font-size:25px;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loremipsum2{
+    position:absolute;
+    top:930px;
+    left:80px;
+    line-height:25px;
+    color:rgb(103, 103, 103);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.img5{
+    position:absolute;
+    top:1110px;
+    left:50px;
+}
+.boxlabel3{
+    position:absolute;
+    top:1130px;
+    left:80px;
+    font-size:25px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loremipsum3{
+    position:absolute;
+    top:1150px;
+    left:80px;
+    line-height:25px;
+    color:rgb(103, 103, 103);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraphlbl1{
+    position:absolute;
+    top:630px;
+    left:380px;
+    color:orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    font-size:20px;
+}
+.paragraphnext1{
+    position:absolute;
+    top:690px;
+    color:rgb(78, 78, 78);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    left:380px;
+}
+.paragraphlbl2{
+    position:absolute;
+    top:880px;
+    left:380px;
+    color:orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    font-size:20px;
+}
+.paragraphnext2{
+    position:absolute;
+    top:900px;
+    color:rgb(78, 78, 78);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    left:380px;
+}
+.paragraphlbl3{
+    position:absolute;
+    top:1100px;
+    left:380px;
+    color:orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    font-size:20px;
+}
+.paragraphnext3{
+    position:absolute;
+    top:1120px;
+    color:rgb(78, 78, 78);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    left:380px;
+}
+.Methods{
+        position:absolute;
+        top:630px;
+        left:380px;
+        color:orange;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:800;
+        font-size:20px;
+    }
+    .list1{
+        position:absolute;
+        top:650px;
+        left:380px;
+        color:rgb(78, 78, 78);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height:30px;
+    }
+    .csni{
+        position:absolute;
+        margin-top:760px;
+        left:380px;
+        color:orange;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:100;
+        font-size:22px;
+    }
+    .list3{
+        position:absolute;
+        top:870px;
+        left:380px;
+        color:rgb(78, 78, 78);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height:30px;
+    }
+    .OurServices{
+        position:absolute;
+        top:1070px;
+        left:380px;
+        color:orange;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:800;
+        font-size:20px;      
+    }
+    .List4{
+        position:absolute;
+        top:1090px;
+        left:380px;
+        color:rgb(78, 78, 78);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height:30px;
+    }
+    .List5{
+        position:absolute;
+        top:1090px;
+        left:680px;
+        color:rgb(78, 78, 78);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height:30px;
+    }
+    .Cs{
+        position:absolute;
+        top:630px;
+        left:380px;
+        color:rgb(9, 9, 9);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:800;
+        font-size:20px;
+    }
+    .Ma{
+        position:absolute;
+        margin-top:800px;
+        left:380px;
+        color:rgb(9, 9, 9);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:100;
+        font-size:22px;
+    }
+    .list7{
+        position:absolute;
+        top:930px;
+        left:380px;
+        color:rgb(78, 78, 78);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height:30px;
+    }
+    .footertext1{
+        position:absolute;
+        top:1340px;
+        left:100px;
+        color:rgb(9, 9, 9);
+        font-family:impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .apps{
+        position:absolute;
+        top:1000px;
+        left:100px;
+    }
+    .Facebook{
+        position:absolute;
+        top:1007px;
+        left:200px;
+    }
+    .youtube{
+        position:absolute;
+        top:1049px;
+        left:200px;
+    }
+    .Twitter{
+        position:absolute;
+        top:1090px;
+        left:200px;
+    }
+    .Instagram{
+        position:absolute;
+        top:1130px;
+        left:200px;
+    }
+    .footeritem1{
+        position:absolute;
+        top:1000px;
+        left:300px;
+        height:170px;
+    }
+    .footeritem2{
+        position:absolute;
+        top:1000px;
+        left:490px;
+        height:170px;
+    }
+    .playinggrass{
+        position:absolute;
+        top:950px;
+        left:260px;
+    }
+    .babysmiling{
+        position:absolute;
+        top:950px;
+        left:475px;
+    }
+    .loremipsumm{
+        position:absolute;
+        top:1050px;
+        left:330px;
+        font-style:italic;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width:140px;
+        height:100px;
+        color:black;
+        font-size:13px;
+    }
+    .loremipsummm{
+        position:absolute;
+        top:1050px;
+        left:500px;
+        font-style:italic;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width:140px;
+        height:100px;
+        color:black;
+        font-size:13px;
+    }
+    .divv{
+        margin-left:100px;
+        width:600px;
+        height:240px;
+        background-color:green;
+    }
+    .loremipsums{
+        position:absolute;
+        top:1430px;
+        left:450px;
+        font-style:italic;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width:140px;
+        height:100px;
+        color:black;
+        font-size:13px;
+    }
+    .youtube1{
+        position:absolute;
+        top:1400px;
+        left:200px;
+    }
+    .apps1{
+        position:absolute;
+        top:1390px;
+        left:100px;
+    }
+    .Facebook1{
+        position:absolute;
+        top:1440px;
+        left:200px;
+    }
+    .Twitter1{
+        position:absolute;
+        top:1480px;
+        left:200px;
+    }
+    .Instagram1{
+        position:absolute;
+        top:1520px;
+        left:200px
+    }
+    .footeritem3{
+        position:absolute;
+        top:1390px;
+        left:400px;
+        height:170px;
+    }
+    .playinggrass1{
+        position:absolute;
+        top:1300px;
+    }
+    .appss{
+        position:absolute;
+        top:1380px;
+        left:10px;
+    }
+    .youtubee{
+        position:Absolute;
+        top:1390px;
+        left:100px;
+    }
+    .Twitterr{
+        position:absolute;
+        top:1430px;
+        left:100px;
+    }
+    .Instagramm{
+        position:absolute;
+        top:1470px;
+        left:100px;
+    }
+    .Facebookk{
+        position:absolute;
+        top:1510px;
+        left:100px;
+    }
+    .footeritemm{
+        position:absolute;
+        top:1385px;
+        left:300px;
+        height:170px;
+    }
+    .footeritemmm{
+        position:absolute;
+        top:1385px;
+        left:510px;
+        height:170px;
+    }
+    .playinggrasss{
+        position:absolute;
+        top:1330px;
+        left:510px;
+    }
+    .babysmilingg{
+        position:absolute;
+        top:1330px;
+        left:300px;
+    }
+    .lorempipsummm{
+        position:absolute;
+        top:1440px;
+        left:320px;
+        font-style:italic;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .lorempipsummmm{
+        position:absolute;
+        top:1440px;
+        left:530px;
+        font-style:italic;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }

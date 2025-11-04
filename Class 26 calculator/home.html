@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <input id="result" type="text"><br>
+        <input class="CE1" type="button" value="CE" onclick="cut()">
+        <input class="C" type="button" value="C" onclick="clearResult()">
+        <input class="%" type="button" value="%" onclick="press('%')">
+        <input class="x" type="button" value="x" onclick="press('*')">
+        <br>
+        <input class="-" type="button" value="-" onclick="press('-')">
+        <input class="+" type="button" value="+" onclick="press('+')">
+        <input class="=" type="button" value="=" onclick="equal()">
+        <input class="." type="button" value="." onclick="press('.')">
+        <br>
+        <input class="/" type="button" value="/" onclick="press('/')">
+        <input class="0" type="button" value="0" onclick="press('0')">
+        <input class="1" type="button" value="1" onclick="press('1')">
+        <input class="2" type="button" value="2" onclick="press('2')">
+        <br>
+        <input class="3" type="button" value="3" onclick="press('3')">
+        <input class="4" type="button" value="4" onclick="press('4')">
+        <input class="5" type="button" value="5" onclick="press('5')">
+        <input class="6" type="button" value="6" onclick="press('6')">
+        <br>
+        <input class="7" type="button" value="7" onclick="press('7')">
+        <input class="8" type="button" value="8" onclick="press('8')">
+        <input class="9" type="button" value="9" onclick="press('9')">
+    </form>
+    <script src="script.js"></script>
+
+    </body>
+</html>
