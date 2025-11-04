@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-------------------------------------Bootstrap Cloud Links--------------------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-----------------Grid System------------------>
+<!---
+Grid system means dividing the page in rows and columns mainly. whole page is divided into excatly 12 columns. 
+This is done to assign equal space to all tags we use. eg : if we have total 12 tags we ca n didvide space among 12 
+if we have 3 things  and we wnat equal space between them we give 4-4 space to each of them.
+or if w ehave 4 things out of which 2 share more space then other two. 
+2-2 we will give 2 things now 8 is left and 4-4 to other 2 things
+this sill solve spacing issue and make our page really nice without using margin.
+
+how to use 
+1. strt with container or container-fluid class
+2. then use one div tag to give row class, as eventually all things we are placing our in one row
+3. i want 3 things in one line : first  aimage, second a navigation bar, third a text
+4. use div tag for each of them to code
+-->
+
+<!-- we will have 3 things in one line : 1 logo img, navigation bar, 1 cart img:
+12 columns we will divide :
+1 logo img : 3 columns
+1 navigation bar : 6 columns
+1 cart image : 3 columns
+
+also mention screenames:
+1. sm : small medium : tablet
+2. md : medium : laptop
+3. xs : small : mobile
+4. lg : pc
+
+we do not have to use display:inline property because it autmatically makes tags go in one line.
+-->
+<div class="container">
+<div class="row">
+<div class="col-sm-1">
+    <img src="logo.png">
+</div>
+<div class="col-sm-10">
+    <ul><li>Home</li> <li>Aboutus</li> <li>Login</li> <li>Sign</li> <li>Products</li></ul>
+
+</div>
+<div class="col-sm-1">
+    <img src="cart.png">
+</div>
+</div>
+     
+</div>
+
+<div>
+    
+</div>
+    
+</body>
+</html>

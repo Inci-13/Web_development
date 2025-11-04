@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-------------------------Navbar with dropdown and serach bar--------->
+  <!--using serachbox with dropdown navbar or without dropdown vbar is an option-->
+    <!--to create dropdown with navigation bar we use class dropdown and we also sue ul li tag when we click on 
+    home or other option
+    -->
+    <nav class="navbar navbar-inverse"> <!--nav means navigation Bar-->
+        <div class="container-fluid">
+            <div class="navbar-header"> <!-- inside this we give usually tags which comes on left side like logo img, brand name website name etc...-->
+             <a class="navbar-brand" href="#"><img src="/logo.png" width="80" height="30"></a>
+            </div>
+            <!--------------First home category with dropdwon list. always use extra ul li to do that-->
+            <ul class="nav navbar-nav">
+                <li class="active dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home
+                <span class="caret"></span></a> <!--icon for dropdown-->
+<!--when we click on dropdown a list oppen so we have to use ul li tag -->
+<ul class="dropdown-menu">
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Features</a></li>
+</ul>
+                </li> 
+<!----------------------------------------------------End--------------------------->
+<!-------------------------------Start of new option categories---------->
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories
+<span class="caret"></span></a> <!--icon for dropdown-->
+<!--when we click on dropdown a list oppen so we have to use ul li tag -->
+<ul class="dropdown-menu">
+<li><a href="#">Clothes</a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Fashion</a></li>
+</ul>
+</li> 
+<!-----------------------------------------End----------------------->
+<!----------------------------------Start of new option Abouts Us-->
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
+<span class="caret"></span></a> <!--icon for dropdown-->
+<!--when we click on dropdown a list oppen so we have to use ul li tag -->
+<ul class="dropdown-menu">
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Information</a></li>
+<li><a href="#">Sale</a></li>
+</ul>
+</li> 
+<!-----------------------------------------------------End---------------->
+<!------------------------------------Start of new option of Sign up--------------->
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign up
+<span class="caret"></span></a> <!--icon for dropdown-->
+<!--when we click on dropdown a list oppen so we have to use ul li tag -->
+<ul class="dropdown-menu">
+<li><a href="#">Login</a></li>
+<li><a href="#">Sign up</a></li>
+<li><a href="#">Ask new password</a></li>
+</ul>
+</li> 
+            </ul>
+
+            <!-------------------------------Search bos with input tag---------->
+            <form class="navbar-form navbar-left"><!--if do not want on left side do not not use navbar-left-->
+                <div>
+                    <input type="text" placeholder="Search">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+        
+        </nav>
+
+    
+</body>
+</html>
